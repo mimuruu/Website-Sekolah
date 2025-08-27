@@ -1,0 +1,179 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+}
+
+li, a {
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0%;
+    background-color: rgb(0, 22, 70);
+    height: 100px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+    margin: 15px;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+    color: rgb(255, 120, 58);
+}
+
+.beranda {
+    color: white;
+    font-family: Arial;
+    margin: auto;
+    padding: 80px 5%;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.join button {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial;
+    color: rgb(0, 22, 70);
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 100px;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.join button:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.profil {
+    color: white;
+    font-family: Arial;
+    margin: auto;
+    padding: 80px 5%;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.profil .profil-isi {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.jurusan {
+    color: white;
+    font-family: Arial;
+    margin: auto;
+    padding: 80px 5%;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.jurusan-kumpulan ul {
+    margin: 0px 1.7%;
+}
+
+.jurusan-kumpulan ul li {
+    list-style: decimal;
+    font-size: 20px;
+}
+
+.jurusan-kumpulan p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.kontak {
+    color: white;
+    font-family: Arial;
+    margin: auto;
+    padding: 80px 5%;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.kontak .kontak-isi {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.anjing {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    flex: 10px;
+}
+
+.footer {
+    font-family: Arial;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-jurusan {
+    font-family: Arial;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.pengumuman {
+    color: white;
+    font-family: Arial;
+    margin: auto;
+    padding: 80px 5%;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+
+.pengumuman .pengumuman-isi {
+    font-size: 20px;
+}
+
+.berita {
+    text-align: center;   
+    cursor: pointer; 
+}
+
+.berita-ppdb {
+    width: 1000px;
+    border-radius: 25px;
+}
