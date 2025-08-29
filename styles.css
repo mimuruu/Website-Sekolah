@@ -216,7 +216,7 @@ nav .toggle-btn {
 }
 
 .dropdown-menu.open {
-    height: 240px;
+    height: 260px;
 }
 
 .dropdown-menu li a {
@@ -250,8 +250,7 @@ nav .toggle-btn {
     }
 
     .berita-ppdb {
-        width: 400px;
-        border-radius: 25px;
+        width: 370px;
     }
 
     .beranda {
